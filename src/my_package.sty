@@ -1,4 +1,6 @@
 \usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
 \DeclareMathOperator*{\argmax}{arg\,max}
 \DeclareMathOperator*{\argmin}{arg\,min}
 
@@ -29,3 +31,6 @@
 }
 \lstset{style=mystyle}
 
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
